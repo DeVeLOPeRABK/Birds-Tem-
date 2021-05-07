@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1 ,h2 ,h3 ,h4 ,h5 ,h6 span p{
+    font-family: 'Roboto', sans-serif;
+}
+a ,li{
+    text-decoration: none;
+    list-style: none;
+}
+img{
+    max-width: 100%;
+}
+.textCenter{
+    text-align: center;
+}
+.textRight{
+    text-align: right;
+}
+.textLeft{
+    text-align-last: left;
+}
+.py{
+    padding: 30px 0;
+}
+.px{
+    padding:0 30px;
+}
+.clear_fix::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.container{
+    width: 1124px;
+    margin: auto;
+}
+
+/*main css start*/
+.bannerSection{}
+.banner {
+    background-image: url(./IMG/img-1.jpg);
+    padding: 250px 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+.banner p{
+    color: #fff;
+    margin-top: 20px;
+    font-weight: 300;
+}
+.banner::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: #15191ea9;
+    z-index: -1;
+}
+.time{
+    float: left;
+    width: 24%;
+    color: #fff;
+    margin-top: 60px;
+    
+}
+.time h1{
+    font-size: 67px;
+    color: #f9f9f9;
+    font-weight: 300;
+}
+.time span{
+    margin-top: 20px;
+    display: inline-block;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+/* cons__section */
+.cons_s{}
+.cons__title{}
+.cons__title h2 {
+    font-size: 26px;
+    color: #000;
+    font-weight: 300;
+    padding:15px 0;
+}
+.cons__title p {
+    font-size: 16px;
+    width: 478px;
+    margin: auto;
+}
+.cons__title input {
+    padding: 11px 154px 14px 23px;
+    border: 3px solid black;
+    font-size: 16px;
+    outline: none;   
+}
+.cons__title a {
+    border: 3px solid black;
+    padding: 14px 17px;
+    display: iblock;
+    margin-left: -7px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 15px;
+    background: #000;
+}
+.cons__title a:hover{
+    background: #3a3939;
+}
+
+/* .content__section */
+.section__conte{
+    background-image: url(https://media-cdn.tripadvisor.com/media/photo-s/16/5d/e7/e2/stars-in-the-sky.jpg);
+    padding: 120px 0px 100px 0px;
+    margin-top:60px;
+   
+}
+.contents{
+    width: 30%;
+    margin: auto;
+}
+.contents h2{
+    color: white;
+    margin-top: 20px;
+    font-weight: 300;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.contents p{
+    width: 322px;
+    color: white;
+    font-weight: 300;
+    font-size: 17px;
+}
+
+.r__box {
+    
+    width: 100px;
+    border: 3px solid white;
+    height: 100px;
+    transform: rotate(20deg);
+    transition: .9s;
+    margin:auto;
+}
+.r__box i{
+    font-size: 40px;
+    color: white;
+    transform: rotate(-23deg);
+    line-height: 100px;
+}
+.contents:hover .r__box {
+    background-color: #fff;
+    transform: rotate(45deg);
+    color: black;
+    
+} 
+.contents:hover .icon{
+    color: black;
+}
+
+
+/* touchSection// */
+.g__touchSection{
+   
+}
+.touch__title{
+    position: relative;
+    
+}
+.touch__title h2{
+
+    font-weight: 400;
+    font-size: 29px;
+}
+.rot__s span{
+    height: 17px;
+    width: 17px;
+    display: block;
+    border: 1px solid black;
+    margin:4px auto;
+    transform: rotate(45deg);
+
+}
+.touch__title p{
+    margin-top: 30px;
+    font-size: 20px;
+    font-weight: 300;
+    color: #534F4F;
+}
+.rot__s{
+    
+}
+.rot__s::before{
+    content: "";
+    width: 66px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 47px;
+    left: 43%;
+    margin: 0 auto !important;
+
+}
+.rot__s::after{
+    content: "";
+    width: 66px;
+    height: 1px;
+    background-color: black;
+    display: block;
+    position: absolute;
+    top: 47px;
+    left: 51%;
+    margin: 0 auto !important;
+
+}
+/* contact_section */
+.contact_section{}
+.form{}
+.form button{
+    text-decoration: none;
+    margin-top: 10px;
+    background: black;
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 331px;
+    border: none;
+    padding: 4px 6px;
+    outline: none;
+    color: white;
+    margin-bottom: 100px;
+    cursor: pointer;
+}
+.form button:hover{
+    background:#3a3939;
+}
+.form input{
+    padding: 10px 72px 11px 7px;
+    outline:none !important;
+    
+}
+.form textarea{
+    border: 1px solid black;
+    margin-top: 10px;
+    outline: none;
+    padding: 15px 242px 33px 28px;
+}
+
+.footer__contact{}
+.contact{}
+.contact ul{}
+.contact ul li{
+    width: 31px;
+    height: 31px;
+    margin: auto;
+    border: 1px solid black;
+    line-height: 31px;
+    transform: rotate(45deg);
+    display:inline-block;
+    margin-left: 30px;
+    transition: .7s;
+}
+
+.contact ul .facebook{
+    color: #4467a3;
+    border:2px solid #4467a3 ;
+}
+.contact ul .facebook:hover{
+    background-color: #4467a3;
+    color: #fff;
+
+}
+.contact ul .twiter{
+    border: 2px solid #66cdf4;
+    color: #66cdf4;
+}
+.contact ul .twiter:hover{
+    color: white;
+    background-color: #66cdf4;
+}
+.contact ul .tumbler{
+    border: 2px solid #32506d;
+    color: #32506d;
+}
+.contact ul .tumbler:hover{
+    color: white;
+    background-color: #32506d;
+}
+.pintrest{
+    border: 2px solid #e0797d;
+    color: #e0797d;
+}
+.pintrest:hover{
+   color: white;
+   background-color: #e0797d;
+}
+.flickr{
+    border: 2px solid #ff0084;
+    color: #ff0084;
+}
+.flickr:hover{
+    background-color: #ff0084;
+    color: white;
+}
+.contact ul li i{
+    transform:rotate(-45deg);
+}
+.contact p{
+    font: 20px;
+    font-weight: 400;
+}
